@@ -22,7 +22,7 @@ function toggleSidebar() {
   <aside class="bg-gray-900 shrink-0 flex flex-col transition-all duration-300 overflow-hidden"
          :class="isSidebarOpen ? 'w-64' : 'w-20'">
     <header class="text-white text-xl p-5 flex justify-between items-center italic font-mono font-extrabold">
-      <h2 class="pl-5" v-if="isSidebarOpen">
+      <h2 class="ml-5" v-if="isSidebarOpen">
         STATS
       </h2>
 
