@@ -24,7 +24,7 @@ function toggleSidebar() {
 <template>
   <aside
       class="bg-[#0C0F21] shrink-0 flex flex-col transition-all duration-300 overflow-hidden px-3 py-6 gap-6 font-medium text-xs"
-      :class="isSidebarOpen ? 'w-50' : 'w-10'">
+      :class="isSidebarOpen ? 'w-60' : 'w-10'">
     <header class="pb-5 pl-3 flex justify-between items-center border-b border-[#1D233B]">
       <Logo/>
 

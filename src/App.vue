@@ -13,10 +13,10 @@ import "@fontsource/rubik/500.css"
 </script>
 
 <template>
-  <div class="flex h-screen">
+  <div class="flex h-screen font-rubik">
     <Sidebar/>
 
-    <div class="flex flex-col font-mono w-full">
+    <div class="flex flex-col w-full">
       <DashboardHeader/>
 
       <main class="flex-1 overflow-y-auto p-8 gap-8">
