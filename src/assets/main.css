@@ -1,7 +1,6 @@
 @import './base.css';
 @import "tailwindcss";
 
-#app {
-  display: flex;
-  height: 100vh;
+@theme {
+    --font-rubik: 'Rubik', sans-serif;
 }
