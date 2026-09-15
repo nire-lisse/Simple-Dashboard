@@ -4,7 +4,7 @@ import IconPlus from "@/assets/icons/Plus.svg";
 
 <template>
     <a href="#" class="flex items-center gap-3 p-3 text-white rounded-lg bg-[#00B194] hover:bg-teal-400 transition-colors">
-      <IconPlus class="size-4"/>
+      <IconPlus/>
       Create order
     </a>
 </template>

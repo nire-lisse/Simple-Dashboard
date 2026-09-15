@@ -31,7 +31,7 @@ const classes = computed(() => {
      class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-600 transition-colors"
      :class="classes">
     <slot name="icon"/>
-    <slot name="text"></slot>
+    <slot name="text"/>
   </a>
 </template>
 
