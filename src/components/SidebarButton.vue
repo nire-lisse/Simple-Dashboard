@@ -16,11 +16,8 @@ const classes = computed(() => {
     tempClass.push('bg-[#393E5C]')
   } else {
     if (!textColor)
-    tempClass.push('text-[#9399AF]')
+      tempClass.push('text-[#9399AF]')
   }
-
-  if(textColor)
-    tempClass.push(`text-[${textColor}]`)
 
   return tempClass.join(' ')
 })
@@ -29,7 +26,8 @@ const classes = computed(() => {
 <template>
   <a href="#"
      class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-600 transition-colors"
-     :class="classes">
+     :class="classes"
+     :style="textColor ? { color: textColor } : undefined">
     <slot name="icon"/>
     <slot name="text"/>
   </a>
